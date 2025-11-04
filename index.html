@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Freedom Bowls - Global Flavor. Local Heart.</title>
+  <meta name="description" content="Freedom Bowls is a global-flavor food truck serving premium street bowls while supporting the Freedom Roots Foundation. Explore the menu, mission, and gallery in light or dark mode." />
+  <link rel="icon" type="image/svg+xml" href="new_logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:wght@800&family=Inter:wght@400;500;600&family=Nunito:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar" data-animate>
+    <div class="brand">
+      <a class="brand-lockup" href="#top" aria-label="Freedom Bowls home">
+        <img src="new_logo.svg" alt="Freedom Bowls logo" class="brand-logo" />
+      </a>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#impact">Impact</a>
+      <a href="#find-us">Find Us</a>
+      <a href="#booking">Book</a>
+    </nav>
+    <button id="mode-toggle" class="mode-toggle" type="button" aria-label="Switch to dark theme">
+      <i class="mode-toggle__icon bi" aria-hidden="true"></i>
+      <span class="sr-only">Switch to dark theme</span>
+    </button>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="hero-layer hero-gradient" aria-hidden="true"></div>
+      <div class="hero-layer hero-pattern" data-parallax="-0.12" aria-hidden="true"></div>
+      <div class="hero-watermark" aria-hidden="true">
+        <img src="new_logo.svg" alt="" />
+      </div>
+      <div class="hero-inner">
+        <div class="hero-copy" data-animate>
+          <p class="eyebrow">Global fusion street kitchen</p>
+          <h1>Global Flavor. Local Heart.</h1>
+          <p>Freedom Bowls blends tropical markets, Midwest hospitality, and a mission-first mindset. Every bowl powers the Freedom Roots Foundation and keeps our trailer rolling across the map.</p>
+          <div class="cta-group">
+            <a class="btn primary" href="#booking">Book the Truck</a>
+            <a class="btn outline" href="#find-us">Find the Truck</a>
+          </div>
+        </div>
+        <aside class="hero-highlights" data-animate>
+          <div class="highlight">
+            <span class="value">12K+</span>
+            <span class="label">Bowls served</span>
+          </div>
+          <div class="highlight">
+            <span class="value">$14K</span>
+            <span class="label">Funds to youth</span>
+          </div>
+          <div class="highlight">
+            <span class="value">47</span>
+            <span class="label">Pop-ups yearly</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-media" data-animate>
+        <video src="food.mp4" autoplay muted loop playsinline aria-hidden="true"></video>
+        <div class="story-overlay" aria-hidden="true"></div>
+      </div>
+      <div class="story-copy" data-animate>
+        <p class="eyebrow">Our Story</p>
+        <h2>Veteran owned. Community rooted.</h2>
+        <p>Freedom Bowls began in a family kitchen with a single rice base and a world of sauces. Today we roll across bases, markets, and block parties with bowls that celebrate Caribbean spice, Thai heat, smoky BBQ, and Mediterranean zest.</p>
+        <p>The Freedom Roots Foundation reinvests proceeds into mentorship nights, leadership labs, and food security programs for military-connected youth. When you dine with us, you extend the table to someone else.</p>
+        <ul class="story-list">
+          <li>One-line kitchen flow with handcrafted sauces</li>
+          <li>Premium trailer experience with light + dark brand modes</li>
+          <li>Mission-driven events supporting Freedom Roots</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="menu-preview" id="menu">
+      <header class="section-head" data-animate>
+        <p class="eyebrow">Signature Bowls</p>
+        <h2>Bowls that travel the globe</h2>
+        <p class="lede">Hover or tap to reveal the sauce story and flavor notes for each handcrafted bowl.</p>
+      </header>
+      <div class="menu-grid">
+        <article class="menu-card" data-animate>
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1604908177093-efdc7a64c71f?auto=format&fit=crop&w=640&q=80" alt="Smoked Liberty BBQ bowl" />
+          </figure>
+          <div class="card-body">
+            <h3>Smoked Liberty BBQ</h3>
+            <p class="card-summary">Cherrywood pork, burnt honey drizzle, fire-charred corn.</p>
+          </div>
+          <div class="card-hover">
+            <p>Guajillo molasses sauce, pickled mustard seeds, crispy shallots, cilantro-lime rice.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-animate>
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1604908177573-78688f8e006e?auto=format&fit=crop&w=640&q=80" alt="Caribbean Glow bowl" />
+          </figure>
+          <div class="card-body">
+            <h3>Caribbean Glow</h3>
+            <p class="card-summary">Jerk chicken, charred pineapple, coconut rice.</p>
+          </div>
+          <div class="card-hover">
+            <p>Scotch bonnet glaze, lime crema, mango relish, sweet plantain crunch.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-animate>
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1612874472794-4f563c9b166b?auto=format&fit=crop&w=640&q=80" alt="Bangkok Peanut bowl" />
+          </figure>
+          <div class="card-body">
+            <h3>Bangkok Peanut</h3>
+            <p class="card-summary">Thai peanut sauce, vegetable ribbons, sesame crunch.</p>
+          </div>
+          <div class="card-hover">
+            <p>Chili-lime drizzle, coconut jasmine rice, pickled carrots, micro herbs.</p>
+          </div>
+        </article>
+        <article class="menu-card" data-animate>
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=640&q=80" alt="Midnight Gyro bowl" />
+          </figure>
+          <div class="card-body">
+            <h3>Midnight Gyro</h3>
+            <p class="card-summary">Spiced gyro, feta crumble, citrus tzatziki.</p>
+          </div>
+          <div class="card-hover">
+            <p>Black garlic glaze, herb rice, charred peppers, warm pita crisps.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact" id="impact">
+      <div class="impact-bg" aria-hidden="true"></div>
+      <div class="impact-inner">
+        <header data-animate>
+          <p class="eyebrow">Freedom Roots Foundation</p>
+          <h2>Impact with every bowl</h2>
+          <p class="lede">We go beyond tasty bowls. Every event funds youth leadership, community meals, and mentorship for military-connected families.</p>
+        </header>
+        <div class="impact-why" data-animate>
+          <div class="impact-why__layout">
+            <div class="impact-why__intro">
+              <h3>Why helping military youth matters</h3>
+              <p>Military kids shoulder deployment, moves, and sacrifice long before adulthood. Investing in their strength, confidence, and belonging keeps the whole force resilient.</p>
+              <p class="impact-why__lede">How Freedom Roots shows up:</p>
+            </div>
+            <div class="impact-why__cards">
+              <article class="impact-why__card">
+                <span class="impact-why__icon-wrap">
+                  <span class="impact-why__icon bi bi-people-fill" aria-hidden="true"></span>
+                </span>
+                <div class="impact-why__content">
+                  <h4>Built belonging</h4>
+                  <p>Guard-specific events where kids connect with peers who understand their story.</p>
+                </div>
+              </article>
+              <article class="impact-why__card">
+                <span class="impact-why__icon-wrap">
+                  <span class="impact-why__icon bi bi-lightning-charge-fill" aria-hidden="true"></span>
+                </span>
+                <div class="impact-why__content">
+                  <h4>Developed resilience</h4>
+                  <p>Leadership intensives, camps, and mentoring turn constant change into confidence.</p>
+                </div>
+              </article>
+              <article class="impact-why__card">
+                <span class="impact-why__icon-wrap">
+                  <span class="impact-why__icon bi bi-house-heart-fill" aria-hidden="true"></span>
+                </span>
+                <div class="impact-why__content">
+                  <h4>Strengthened families</h4>
+                  <p>Parents and caregivers get resources and community to keep homes mission-ready.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <p class="impact-why__footer">20+ years investing in youth—13 focused on military-connected kids—means Chris has already launched mentorship pipelines, mobile camps, and on-base pop-ups. Now he’s scaling that momentum to open more opportunities for every military kid we meet.</p>
+        </div>
+        <div class="impact-grid">
+          <article data-animate>
+            <div class="impact-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+                <path d="M16 4c-4 4-8 10-8 14 0 5 3 8 8 8s8-3 8-8c0-4-4-10-8-14zm0 0v24" />
+              </svg>
+            </div>
+            <h3>1,200+</h3>
+            <p>Youth served through Freedom Roots leadership labs</p>
+          </article>
+          <article data-animate>
+            <div class="impact-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+                <path d="M6 14h20v12H6z" />
+                <path d="M6 10l10 6 10-6M14 6h4" />
+              </svg>
+            </div>
+            <h3>6,800</h3>
+            <p>Community meals donated with partner organizations</p>
+          </article>
+          <article data-animate>
+            <div class="impact-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+                <path d="M6 6l8-2 12 4v18l-8 2-12-4z" />
+                <path d="M14 4v22M22 6v22" />
+              </svg>
+            </div>
+            <h3>11 states</h3>
+            <p>Tour stops bringing mission-driven bowls on the road</p>
+          </article>
+        </div>
+        <a class="btn primary" data-animate href="mailto:give@freedombowls.co?subject=Support%20Freedom%20Roots">Support the Mission</a>
+      </div>
+    </section>
+
+    <section class="gallery" id="find-us">
+      <header class="section-head" data-animate>
+        <p class="eyebrow">Gallery</p>
+        <h2>Scenes from the street</h2>
+        <p class="lede">A glimpse of our trailer glow, sizzling prep line, and the bowls that bring people together.</p>
+      </header>
+      <div class="gallery-grid">
+        <figure class="gallery-card" data-animate>
+          <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80" alt="Freedom Bowls trailer serving guests" />
+          <figcaption>Night market pop-up with the black-and-gold trailer.</figcaption>
+        </figure>
+        <figure class="gallery-card" data-animate>
+          <img src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?auto=format&fit=crop&w=800&q=80" alt="Chef plating a Freedom Bowls dish" />
+          <figcaption>Chef plating bangkok peanut with toasted sesame crunch.</figcaption>
+        </figure>
+        <figure class="gallery-card" data-animate>
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80" alt="Caribbean glow bowl close up" />
+          <figcaption>Caribbean glow bowl with jerk spice and pineapple relish.</figcaption>
+        </figure>
+        <figure class="gallery-card" data-animate>
+          <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=800&q=80" alt="Guests at a Freedom Bowls community event" />
+          <figcaption>Community event fueling Freedom Roots mentorship nights.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+      <div class="subscribe-card" data-animate>
+        <div class="subscribe-copy">
+          <p class="eyebrow">Stay in the loop</p>
+          <h2>Route drops and pop-up alerts</h2>
+          <p class="lede">Subscribe for weekly updates on where the trailer is rolling next, special menu drops, and Freedom Roots impact nights.</p>
+          <ul class="subscribe-list">
+            <li>Early access to limited bowls</li>
+            <li>Pop-up schedule alerts in your inbox</li>
+            <li>Highlights from Freedom Roots Foundation</li>
+          </ul>
+        </div>
+        <form class="subscribe-form" data-toast="You're on the route update list!" action="#" method="post">
+          <label for="subscribe-email">Email address</label>
+          <div class="subscribe-field">
+            <input id="subscribe-email" name="email" type="email" placeholder="you@example.com" required />
+            <button class="btn primary" type="submit">Notify Me</button>
+          </div>
+          <p class="subscribe-note">We send one update each week - unsubscribe anytime.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact" id="booking">
+      <div class="contact-card" data-animate>
+        <header>
+          <p class="eyebrow">Book the truck</p>
+          <h2>Let's plan your next event</h2>
+          <p class="lede">Corporate lunches, base visits, festivals, and after-dark glow parties - we bring the mission and the flavor.</p>
+        </header>
+        <form class="contact-form" data-toast="Thanks for reaching out. We will reply soon!" action="#" method="post">
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Contact name</label>
+              <input id="name" name="name" type="text" placeholder="Full name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="name@example.com" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="(555) 000-1234" required />
+            </div>
+            <div class="field">
+              <label for="event-date">Event date</label>
+              <input id="event-date" name="event-date" type="date" required />
+            </div>
+            <div class="field">
+              <label for="event-type">Event type</label>
+              <select id="event-type" name="event-type" required>
+                <option value="" disabled selected>Select an event</option>
+                <option value="corporate">Corporate gathering</option>
+                <option value="military">Military or base activation</option>
+                <option value="festival">Festival or market</option>
+                <option value="private">Private celebration</option>
+                <option value="nonprofit">Nonprofit fundraiser</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="guest-count">Guest count</label>
+              <input id="guest-count" name="guest-count" type="number" min="10" max="500" placeholder="Estimated guests" required />
+            </div>
+            <div class="field full-width">
+              <label for="location">Location</label>
+              <input id="location" name="location" type="text" placeholder="Venue or city" required />
+            </div>
+            <div class="field full-width">
+              <label for="details">Event details</label>
+              <textarea id="details" name="details" placeholder="Share timing, service style, mission moments, or special requests" rows="4" required></textarea>
+            </div>
+          </div>
+          <button class="btn primary" type="submit">Send Booking Request</button>
+        </form>
+      </div>
+      <aside class="contact-aside" data-animate>
+        <div class="contact-pattern" aria-hidden="true"></div>
+        <div class="contact-info">
+          <p class="tagline">Freedom Bowls - Premium street food in gold and shadow.</p>
+          <p>Locations: Rolling statewide across Iowa, ready to travel.</p>
+          <p>Email: <a href="mailto:freedombowlsco@gmail.com">freedombowlsco@gmail.com</a></p>
+          <p>Social: <a href="https://instagram.com/FreedomBowlsCo" target="_blank" rel="noopener">@FreedomBowlsCo</a></p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div data-animate>
+      <img src="new_logo.svg" alt="Freedom Bowls logo" class="footer-logo" />
+    </div>
+    <div data-animate>
+      <p>Freedom Bowls celebrates global flavor with hospitality warmth and mission-driven energy.</p>
+    </div>
+    <div class="footer-meta" data-animate>
+      <p>Instagram: <a href="https://instagram.com/FreedomBowlsCo" target="_blank" rel="noopener">@FreedomBowlsCo</a></p>
+      <p>Facebook: <a href="https://facebook.com" target="_blank" rel="noopener">facebook.com/freedombowls</a></p>
+      <p class="small-print">Copyright Freedom Bowls 2025 - Global Flavor. Local Heart.</p>
+    </div>
+    <a class="back-to-top" href="#top" data-animate>Back to top</a>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
